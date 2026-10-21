@@ -1,0 +1,12 @@
+﻿services:
+  localstack:
+    container_name: localstack-main
+    image: localstack/localstack-pro
+    ports:
+      - "127.0.0.1:4566:4566"
+    environment:
+      LOCALSTACK_AUTH_TOKEN: ${LOCALSTACK_AUTH_TOKEN:?Set your LocalStack Auth Token first}
+      DEBUG: "0"
+    volumes:
+      - "./volume:/var/lib/localstack"
+      - "/var/run/docker.sock:/var/run/docker.sock"
