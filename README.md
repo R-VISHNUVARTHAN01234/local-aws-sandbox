@@ -1,4 +1,4 @@
-# Local AWS Sandbox Ã¢â‚¬â€ Serverless Architecture with LocalStack
+# Local AWS Sandbox - Serverless Architecture with LocalStack
 
 
 
@@ -52,21 +52,21 @@ User uploads a file
 
 
 
-\- Docker Ã¢â‚¬â€ runs the local cloud environment.
+\- Docker ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â runs the local cloud environment.
 
-\- LocalStack Ã¢â‚¬â€ simulates AWS services locally.
+\- LocalStack ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â simulates AWS services locally.
 
-\- Amazon S3 Ã¢â‚¬â€ stores uploaded objects.
+\- Amazon S3 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â stores uploaded objects.
 
-\- AWS Lambda Ã¢â‚¬â€ processes S3 upload events.
+\- AWS Lambda ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â processes S3 upload events.
 
-\- CloudWatch Logs Ã¢â‚¬â€ captures Lambda execution logs.
+\- CloudWatch Logs ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â captures Lambda execution logs.
 
-\- AWS CLI / awslocal Ã¢â‚¬â€ creates, configures and tests resources.
+\- AWS CLI / awslocal ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â creates, configures and tests resources.
 
-\- Python Ã¢â‚¬â€ implements the Lambda handler.
+\- Python ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â implements the Lambda handler.
 
-\- PowerShell Ã¢â‚¬â€ manages the development workflow on Windows.
+\- PowerShell ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â manages the development workflow on Windows.
 
 
 
@@ -98,19 +98,19 @@ User uploads a file
 
 local-aws-sandbox/
 
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ docker-compose.yml
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ docker-compose.yml
 
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ lambda/
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ lambda/
 
-Ã¢â€â€š   Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ app.py
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬Å¡   ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ app.py
 
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ s3-notification.json
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ s3-notification.json
 
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ sample.txt
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ sample.txt
 
-Ã¢â€Å“Ã¢â€â‚¬Ã¢â€â‚¬ README.md
+ÃƒÂ¢Ã¢â‚¬ÂÃ…â€œÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ README.md
 
-Ã¢â€â€Ã¢â€â‚¬Ã¢â€â‚¬ .gitignore
+ÃƒÂ¢Ã¢â‚¬ÂÃ¢â‚¬ÂÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ÃƒÂ¢Ã¢â‚¬ÂÃ¢â€šÂ¬ .gitignore
 
 ```
 

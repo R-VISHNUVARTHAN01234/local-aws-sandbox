@@ -16,3 +16,11 @@ test-upload.txt
 # Python cache
 __pycache__/
 *.pyc
+
+# LocalStack runtime data
+/volume/
+
+# Test files
+automatic-test*.txt
+automatic-trigger-test.txt
+test-event.json
